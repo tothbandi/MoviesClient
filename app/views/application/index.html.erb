@@ -1,0 +1,4 @@
+<div class="page-title center">Search&nbsp;&nbsp;Movies&nbsp;&nbsp;Database</div>
+<div class="search-block center"><%= render partial: 'search' %></div>
+<div class="info-bar"><%= flash[:notice] %></div>
+<%= render partial: 'movies' if @movies %>
